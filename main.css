@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.container {
+        margin: 80px auto;
+        max-width: 300px;
+        width: 100%;
+}
+
+form {
+    margin-top: 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+input, button {
+    display: flex;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+    text-align: center;
+}
+
+button {
+    background-color: darkcyan;
+    color: white; 
+    text-transform: uppercase; 
+    cursor: pointer;
+    font-size: 18px;
+    justify-content: center;
+    
+}
+
+.mensagemValidacao {
+    background-color: darkslategray;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    display:none;
+}
+
+.mensagemIgual {
+    background-color: crimson;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 8px;
+    display:none;
+}
+
